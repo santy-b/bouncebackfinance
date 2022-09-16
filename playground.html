@@ -17,69 +17,75 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block container block-plans">
-      <div class="grid grid--1x3">
-        <div class="plan">
-          <div class="card card--secondary">
-            <header class="card__header">
-              <h3 class="plan__name">Online Courses</h3>
-              <span class="plan__price">$30</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">Unlimited Courses</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">All Course Access</li>
-                <li class="list__item">Replay for all courses available</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Courses</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Video Courses</a></li>
+              <li><a href="#">One on One sessions</a></li>
+              <li><a href="#">Discovery call</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="plan plan--popular">
-          <div class="card card--primary">
-            <header class="card__header">
-              <h3 class="plan__name">One on One</h3>
-              <span class="plan__price">$100</span>
-              <span class="plan__billing-cycle">/hour</span>
-              <span class="badge badge--primary badge--small">10% OFF</span>
-              <span class="plan__description">Personalized Attention</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">1 hr financial coaching</li>
-                <li class="list__item">Expert advice to all questions</li>
-                <li class="list__item">Taylored budget plan</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="plan">
-          <div class="card card--secondary">
-            <header class="card__header">
-              <h3 class="plan__name">Bundle</h3>
-              <span class="plan__price">$250</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">All in One Package</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">All Course Access</li>
-                <li class="list__item">Replay for all courses available</li>
-                <li class="list__item">1 hr financial coaching/weekly</li>
-                <li class="list__item">Expert advice to all questions</li>
-                <li class="list__item">Taylored budget plan</li>
-                <li class="list__item">Fiancial statmeent review</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
           </div>
-        </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">
+              Technical Support
+            </h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Email us</a></li>
+              <li><a href="#">Instructions</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img src="images/logo.png" alt="" />
+          <p class="footer__copyright">BounceBackFiance</p>
+        </section>
       </div>
-    </section>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
