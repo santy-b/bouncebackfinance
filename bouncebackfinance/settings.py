@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*-w_v9zyk1g=7-#bach^uar*q^6yzpug89*v=0rp0ta3zk3v)7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bouncebackfinance.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

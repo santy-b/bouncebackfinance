@@ -1,1 +1,1 @@
-web: gunicorn bouncebackfinance.wsgi
+web gunicorn bouncebackfinance.wsgi
