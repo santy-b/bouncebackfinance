@@ -749,9 +749,8 @@ a {
 }
 
 .top__funnel {
-  height: 3.2rem;
-  overflow: hidden;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .top__funnel a {
