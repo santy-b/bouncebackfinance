@@ -406,6 +406,10 @@ a {
   right: 5%;
 }
 
+.plan--popular .badge {
+  margin-top: 2rem;
+}
+
 .plan:hover {
   transform: scale(1.05);
 }
