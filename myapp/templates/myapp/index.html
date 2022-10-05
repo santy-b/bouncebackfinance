@@ -269,11 +269,23 @@
     <div class="container">
       <div class="callout callout--primary callout-signup">
         <div class="grid grid--1x3">
-          <input type="text" class="input input--form" placeholder="Name" />
-          <input type="text" class="input input--form" placeholder="Email" />
-          <button type="submit" class="btn btn--accent btn--stretched">
-            Subscribe
-          </button>
+          <form action="https://formspree.io/f/xwkzbavj" method="POST">
+            <input
+              type="text"
+              class="input input--form"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="input input--form"
+              placeholder="Email"
+              name="email"
+            />
+            <button type="submit" class="btn btn--accent btn--stretched">
+              Subscribe
+            </button>
+          </form>
         </div>
       </div>
     </div>

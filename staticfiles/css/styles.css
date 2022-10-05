@@ -294,6 +294,8 @@ a {
   color: var(--color-headings);
   font-size: 2rem;
   outline: 0;
+  max-width: 50rem;
+  margin: .5rem;
   padding: 1.5rem 3.5rem;
 }
 
@@ -504,6 +506,7 @@ a {
 /* Grids */
 .grid {
   display: grid;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
